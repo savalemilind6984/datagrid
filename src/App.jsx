@@ -20,7 +20,7 @@ export const App = () => {
 
     useEffect(() => {
         const hot = hotRef.current.hotInstance;
-        const cell = hot.selectCell(0, 1);
+        const cell = hot.selectCell(2, 3);
         console.log(cell);
         //  add a search input listener
         searchFieldKeyupCallback = function (event) {
