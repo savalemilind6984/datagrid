@@ -25,7 +25,8 @@ const GridData = () => {
         tableData();
     }, []);
 
-    if (header.length > 0 && data.length > 0) {
+    if (header.length > 0) {
+        console.log(header);
         return (
             <HotTable
                 data={data}
